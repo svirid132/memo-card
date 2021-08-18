@@ -6,14 +6,15 @@ import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import {
-  BrowserRouter as Router
+  BrowserRouter as Router,
+  HashRouter
 } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
-    <Provider store={store}>
+    <HashRouter>
       <App />
-    </Provider>
+    </HashRouter>
   </Router>,
   document.getElementById('root')
 );
