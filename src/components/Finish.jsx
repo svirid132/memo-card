@@ -1,7 +1,4 @@
 import React from 'react'
-import {
-    Link
-} from "react-router-dom";
 
 function Finish({user, score}) {
     return (
@@ -10,9 +7,7 @@ function Finish({user, score}) {
                 <div className="finish__inner-text">
                     <span className="finish__winner">{user} выйграл!!!</span> 
                     <span className="finish__score">со счетом {score}</span>
-                    <Link to="/" >
-                        <button className="finish__button">Перейти в меню</button>
-                    </Link>
+                    <button onClick={() => setTimeout(() => window.location.reload(), 0)} className="finish__button">Перейти в меню</button>
                 </div>
             </div>
         </div>

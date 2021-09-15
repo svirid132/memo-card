@@ -12,5 +12,5 @@ export default function randomaizer(length) {
         randIdArr[i] = selectNum;
     }
 
-    return randIdArr;
+    return randIdArr;//[4, 2, 5...] non zero
 }
