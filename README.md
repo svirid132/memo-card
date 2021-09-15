@@ -1,4 +1,8 @@
-### `inistal`
+### `about Card`
+
+Simple memorization game .
+
+### `install`
 
 npm i
 
