@@ -1,4 +1,4 @@
-import { Container, makeStyles, Box, TextField, CssBaseline, createTheme, ThemeProvider, Button
+import { Container, makeStyles, Box, TextField, createTheme, ThemeProvider, Button
 } from '@material-ui/core'
 import IconButton from '@material-ui/core/IconButton';
 import AddIcon from '@material-ui/icons/Add';
@@ -90,7 +90,6 @@ function Authorization() {
 
     return (
         <div className={classes.root}>
-            <CssBaseline />
             <ThemeProvider theme={theme}>
                 <Container component = "form" className={classes.wrapper} maxWidth="xs">
                     <Box component = "ul" width="100%">
