@@ -44,7 +44,7 @@ const theme = createTheme({
         }
     },
     typography: {
-        fontSize: 20,
+        fontSize: 30,
     },
   });
 
@@ -90,7 +90,7 @@ function Authorization() {
 
     return (
         <div className={classes.root}>
-            <CssBaseline />
+            {/* <CssBaseline /> */}
             <ThemeProvider theme={theme}>
                 <Container component = "form" className={classes.wrapper} maxWidth="xs">
                     <Box component = "ul" width="100%">
