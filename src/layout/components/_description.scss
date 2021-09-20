@@ -2,10 +2,17 @@
 
     &__description {
 
-        font-size: 2rem;
+        font-size: 3rem;
         text-indent: 4rem;
-        line-height: 3rem;
+        line-height: 4rem;
         padding-left: 1.5rem;
+        text-align: justify;
+        padding-right: 3rem;
+
+        @include media(">=medium") {
+            font-size: 2rem;
+            line-height: 3rem;
+        } 
 
         & b {
             font-weight: bold;
@@ -14,27 +21,37 @@
 
     &__img {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
+        width: 45rem;
+        
         & img {
             width: 80%;
-
         }
     }
 
     &__title {
-        font-size: 4rem;
+        font-size: 4.5rem;
         margin: 3rem auto 2rem;
+        text-align: center;
     }
 
     &__wrapper-internal {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
+        margin-top: 2rem;
         background-color: orange;
         border-radius: 10px;
+        padding-bottom: 3rem;
+        
+        @include media(">=medium") {
+            width: 60%;
+        } 
     }
 
     &__button {
@@ -43,11 +60,15 @@
         height: 5rem;
         background-color: rgba(black, 0);
         color: orange;
-        font-size: 3rem;    
+        font-size: 5rem;    
         letter-spacing: 0.2rem;
         border-width: 0;
         top: 2rem;
-        right: 5rem;
+        right: 3.5rem;
+
+        @include media(">=medium") {
+            right: 7rem;
+        } 
 
         &:hover {
             cursor: pointer;
@@ -58,10 +79,8 @@
         position: fixed;
         margin: 0 auto;
         z-index: 1;
-        overflow: scroll;
         top: 0;
         bottom: 0;
-
 
         z-index: 2;
         padding-top: 3rem; 

@@ -61,6 +61,7 @@ const Wrapper = styled.div`
     margin-left: 1rem;
     width: 20rem;   
     height: 30rem;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 `
 
 export default memo(Card);
