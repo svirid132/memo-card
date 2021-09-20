@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/memo-card/static/css/main.4ccb76f1.chunk.css",
-    "main.js": "/memo-card/static/js/main.dc87149e.chunk.js",
-    "main.js.map": "/memo-card/static/js/main.dc87149e.chunk.js.map",
+    "main.js": "/memo-card/static/js/main.8784972d.chunk.js",
+    "main.js.map": "/memo-card/static/js/main.8784972d.chunk.js.map",
     "runtime-main.js": "/memo-card/static/js/runtime-main.b363d2ed.js",
     "runtime-main.js.map": "/memo-card/static/js/runtime-main.b363d2ed.js.map",
-    "static/js/2.beb780d6.chunk.js": "/memo-card/static/js/2.beb780d6.chunk.js",
-    "static/js/2.beb780d6.chunk.js.map": "/memo-card/static/js/2.beb780d6.chunk.js.map",
+    "static/js/2.fcfe8a28.chunk.js": "/memo-card/static/js/2.fcfe8a28.chunk.js",
+    "static/js/2.fcfe8a28.chunk.js.map": "/memo-card/static/js/2.fcfe8a28.chunk.js.map",
     "index.html": "/memo-card/index.html",
     "static/css/main.4ccb76f1.chunk.css.map": "/memo-card/static/css/main.4ccb76f1.chunk.css.map",
-    "static/js/2.beb780d6.chunk.js.LICENSE.txt": "/memo-card/static/js/2.beb780d6.chunk.js.LICENSE.txt",
+    "static/js/2.fcfe8a28.chunk.js.LICENSE.txt": "/memo-card/static/js/2.fcfe8a28.chunk.js.LICENSE.txt",
     "static/media/background.1142705e.jpg": "/memo-card/static/media/background.1142705e.jpg",
     "static/media/card.0a100dc1.jpg": "/memo-card/static/media/card.0a100dc1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b363d2ed.js",
-    "static/js/2.beb780d6.chunk.js",
+    "static/js/2.fcfe8a28.chunk.js",
     "static/css/main.4ccb76f1.chunk.css",
-    "static/js/main.dc87149e.chunk.js"
+    "static/js/main.8784972d.chunk.js"
   ]
 }
